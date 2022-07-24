@@ -1,0 +1,16 @@
+{
+    "name": "blinking-lights",
+    "version": "1.0",
+    "description": "blinking lights extension - photosensitive epileptic seizure warning - it contains flashing lights",
+    "manifest_version": 3,
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "script.js"
+            ]
+        }
+    ]
+}
